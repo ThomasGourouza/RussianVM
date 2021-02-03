@@ -1,0 +1,11 @@
+{
+	"Server": {
+		"Host": "localhost",
+		"Port": "5000",
+		"Database": "cavalierfou"
+	},
+	"Authentification": {
+		"User name": "cavalierfou",
+		"Password": "db780345"
+	}
+}
