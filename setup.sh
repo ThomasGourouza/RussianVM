@@ -11,4 +11,4 @@ cd /vagrant
 echo "Running docker-compose..."
 sudo docker-compose up -d
 echo "Installation completed!"
-echo "Now, go to <url> and enjoy :)"
+echo "Now, go to http://localhost:4200 (or http://127.0.0.1:4200) and enjoy :)"
