@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     vb.gui = false
     vb.memory = "8192"
     vb.cpus = 2
-    vb.name = "Ubuntu-20.04_docker"
+    vb.name = "Russian"
   end
 
   config.vm.provision :shell, path: "./setup.sh"
