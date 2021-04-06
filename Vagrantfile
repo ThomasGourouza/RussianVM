@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.provider "virtualbox" do |vb|
     vb.gui = false
-    vb.memory = "8192"
-    vb.cpus = 2
+    vb.memory = "4096"
+    vb.cpus = 1
     vb.name = "Russian"
   end
 
