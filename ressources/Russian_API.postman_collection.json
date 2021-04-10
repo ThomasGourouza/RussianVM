@@ -700,7 +700,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"root\": \"suppr\",\r\n    \"russianAdjectiveCategoryRefId\": 1,\r\n    \"translation\": \"suppr\"\r\n}",
+							"raw": "{\r\n    \"root\": \"suppr\",\r\n    \"russianAdjectiveCategoryRefId\": 1,\r\n    \"translation\": \"suppr\",\r\n    \"isStressed\": true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -729,7 +729,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"root\": \"высок\",\r\n    \"russianAdjectiveCategoryRefId\": 3,\r\n    \"translation\": \"tall\"\r\n}",
+							"raw": "{\r\n    \"root\": \"suppr\",\r\n    \"russianAdjectiveCategoryRefId\": 1,\r\n    \"translation\": \"suppr\",\r\n    \"isStressed\": false\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -737,7 +737,7 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/api/v1/adjective/3",
+							"raw": "localhost:8080/api/v1/adjective/21",
 							"host": [
 								"localhost"
 							],
@@ -746,7 +746,7 @@
 								"api",
 								"v1",
 								"adjective",
-								"3"
+								"21"
 							]
 						}
 					},
@@ -870,7 +870,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"russianNounId\": 9,\r\n    \"russianDeclSpecEndingRefId\": 13\r\n}",
+									"raw": "[\r\n    {\r\n        \"russianNounId\": 8,\r\n        \"russianDeclSpecEndingRefId\": 4\r\n    },\r\n    {\r\n        \"russianNounId\": 9,\r\n        \"russianDeclSpecEndingRefId\": 13\r\n    }\r\n]",
 									"options": {
 										"raw": {
 											"language": "json"
